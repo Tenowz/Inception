@@ -20,3 +20,11 @@ sudo systemctl status docker
 
 Vérifier l'installation en exécutant un conteneur de test :
 docker run hello-world
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Pour lister les conteneurs :
+docker ps -a
+
+Pour supprimer un conteneur :
+docker rm <ID>/<nom>
