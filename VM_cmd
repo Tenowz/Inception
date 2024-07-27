@@ -26,5 +26,12 @@ docker run hello-world
 Pour lister les conteneurs :
 docker ps -a
 
-Pour supprimer un conteneur :
+Pour stoper un conteneur en cours d'exécution :
+docker stop <ID>/<nom>
+
+Pour supprimer un conteneur APRÈS ARRÊT:
 docker rm <ID>/<nom>
+
+Pour supprimer tout les conteneurs APRÈS ARRÊT :
+docker container prune -f
+
